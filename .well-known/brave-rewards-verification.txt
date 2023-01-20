@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: jlcareglio.github.io
-Token: 14413fec085132c9f051899e1025373af8a499e7b07b21f5944a37c600ca2524
+Token: 923ec86b1b4fc7b2f82e4bd161a055f1b9d403caeb3b3cf23597064968310384
