@@ -23,7 +23,7 @@
 - Lenguajes: JavaScript, TypeScript, CSS, HTML, SQL, Python, C#, PHP, Java, Kotlin, Shell Script
 - Frameworks: Node.js, React.js, Redux, Astro, Svelte, Express, Next.js, GraphQL, SCSS, Tailwind, Bootstrap
 - Bases de datos: PostgreSQL, MySQL, MongoDB - ORMs y ODMs: Mongoose, Prisma
-- Otras habilidades: Terminal Linux, Mobile Development, Firebase, Vercel, Testing, Scrum, REST, Figma, Three.js, Data Scraping, GameEngines: Unity3D, Unreal & Godot, AI & MPC (Model Context Protocol).
+- Otras habilidades: Terminal Linux, Mobile Development, Firebase, Vercel, Testing, Scrum, REST, Figma, Three.js, Data Scraping, GameEngines: Unity3D, Unreal & Godot, AI, MPC (Model Context Protocol) & NLWeb (Natural Language Web)
 
 ## Experiencia Laboral
 
