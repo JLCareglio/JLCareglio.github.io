@@ -1,0 +1,116 @@
+:root {
+  --background-color: #2e2a2b;
+  --text-color: #e7dbc6;
+  --heading-color: #f4ecd8;
+  --link-color: #e4b77a;
+  --link-visited-color: #9e7548;
+  --border-color: #5c4b51;
+  --heading-background: #3a3637;
+}
+
+:root[data-theme="light"] {
+  --background-color: #e0d8c0;
+  --text-color: #4a3f44;
+  --heading-color: #2e2a2b;
+  --link-color: #a65616;
+  --link-visited-color: #583008;
+  --border-color: #a39081;
+  --heading-background: #d0c0a8;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --background-color: #e0d8c0;
+    --text-color: #4a3f44;
+    --heading-color: #2e2a2b;
+    --link-color: #a65616;
+    --link-visited-color: #583008;
+    --border-color: #a39081;
+    --heading-background: #d0c0a8;
+  }
+}
+
+body {
+  line-height: 1.5;
+  margin: auto;
+  padding: 3px;
+  max-width: 1024px;
+  font-family: CONSOLAS, ARIAL;
+  background: var(--background-color);
+  color: var(--text-color);
+
+  h1 {
+    line-height: 1;
+    font-size: 200%;
+    padding: 16px 6px;
+    border: 1px solid var(--border-color);
+    background: var(--heading-background);
+    text-wrap: balance;
+
+    @media (max-width: 711px) {
+      padding-top: 132px;
+    }
+    @media (max-width: 340px) {
+      font-size: 170%;
+    }
+  }
+
+  h2 {
+    border-bottom: 1px solid var(--border-color);
+    padding: 2px;
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+  }
+
+  a:visited {
+    color: var(--link-visited-color);
+  }
+
+  .avatar {
+    float: right;
+    border-radius: 50%;
+    width: 118px;
+    padding: 6px;
+
+    @media (max-width: 711px) {
+      border-radius: 10%;
+      float: left;
+    }
+  }
+
+  .contact-info {
+    float: right;
+    padding: 6px;
+
+    @media (max-width: 711px) {
+      float: left;
+    }
+    @media (max-width: 340px) {
+      line-height: 1.3;
+    }
+  }
+
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    margin: -16px 0;
+    justify-content: flex-start;
+  }
+
+  .action-buttons button {
+    padding: 8px 16px;
+    border: 1px solid var(--border-color);
+    background-color: var(--heading-background);
+    color: var(--text-color);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+
+  .action-buttons button:hover {
+    border: 1px solid var(--link-color);
+  }
+}
