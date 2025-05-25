@@ -73,6 +73,7 @@ body {
     float: right;
     border-radius: 50%;
     width: 118px;
+    aspect-ratio: 1/1;
     padding: 6px;
 
     @media (max-width: 711px) {
@@ -95,9 +96,14 @@ body {
 
   .action-buttons {
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 6px;
     margin: -16px 0;
     justify-content: flex-start;
+
+    @media print {
+      display: none;
+    }
   }
 
   .action-buttons button {
@@ -112,5 +118,13 @@ body {
 
   .action-buttons button:hover {
     border: 1px solid var(--link-color);
+  }
+
+  footer {
+    margin-top: 32px;
+    padding: 16px;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    font-size: 14px;
   }
 }

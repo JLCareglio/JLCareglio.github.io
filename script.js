@@ -18,4 +18,15 @@ const loadTheme = () => {
   }
 };
 
-document.addEventListener("DOMContentLoaded", loadTheme);
+document.addEventListener("DOMContentLoaded", () => {
+  loadTheme();
+
+  const lightThemeBtn = document.getElementById("lightThemeBtn");
+  lightThemeBtn.addEventListener("click", () => changeTheme("light"));
+
+  const darkThemeBtn = document.getElementById("darkThemeBtn");
+  darkThemeBtn.addEventListener("click", () => changeTheme("dark"));
+
+  const printBtn = document.getElementById("printBtn");
+  printBtn.addEventListener("click", () => window.print());
+});
