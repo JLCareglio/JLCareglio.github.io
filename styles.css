@@ -47,7 +47,7 @@ body {
     background: var(--heading-background);
     text-wrap: balance;
 
-    @media (max-width: 711px) {
+    @media (max-width: 800px) {
       padding-top: 132px;
     }
     @media (max-width: 340px) {
@@ -56,8 +56,19 @@ body {
   }
 
   h2 {
+    font-size: 26px;
+    color: var(--heading-color);
+    border-bottom: 2px solid var(--border-color);
+    padding: 4px 0;
+    margin: 24px 0 16px 0;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 22px;
     border-bottom: 1px solid var(--border-color);
     padding: 2px;
+    margin: 19px 0;
     color: var(--heading-color);
   }
 
@@ -69,6 +80,11 @@ body {
     color: var(--link-visited-color);
   }
 
+  abbr {
+    text-decoration: underline dotted;
+    text-decoration-thickness: from-font;
+  }
+
   .avatar {
     float: right;
     border-radius: 50%;
@@ -76,7 +92,7 @@ body {
     aspect-ratio: 1/1;
     padding: 6px;
 
-    @media (max-width: 711px) {
+    @media (max-width: 800px) {
       border-radius: 10%;
       float: left;
     }
@@ -85,8 +101,9 @@ body {
   .contact-info {
     float: right;
     padding: 6px;
+    font-style: normal;
 
-    @media (max-width: 711px) {
+    @media (max-width: 800px) {
       float: left;
     }
     @media (max-width: 340px) {
@@ -98,7 +115,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    margin: -16px 0;
+    margin: -16px 0 0;
     justify-content: flex-start;
 
     @media print {
