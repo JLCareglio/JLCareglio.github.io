@@ -47,7 +47,7 @@ body {
     background: var(--heading-background);
     text-wrap: balance;
 
-    @media (max-width: 800px) {
+    @media (max-width: 742px) {
       padding-top: 132px;
     }
     @media (max-width: 340px) {
@@ -76,8 +76,11 @@ body {
     color: var(--link-color);
   }
 
-  a:visited {
+  a:not(.unmarked-visit):visited {
     color: var(--link-visited-color);
+    @media print {
+      color: var(--link-color);
+    }
   }
 
   abbr {
@@ -92,7 +95,7 @@ body {
     aspect-ratio: 1/1;
     padding: 6px;
 
-    @media (max-width: 800px) {
+    @media (max-width: 742px) {
       border-radius: 10%;
       float: left;
     }
@@ -103,7 +106,7 @@ body {
     padding: 6px;
     font-style: normal;
 
-    @media (max-width: 800px) {
+    @media (max-width: 742px) {
       float: left;
     }
     @media (max-width: 340px) {
