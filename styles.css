@@ -47,7 +47,7 @@ body {
     background: var(--heading-background);
     text-wrap: balance;
 
-    @media (max-width: 742px) {
+    @media (max-width: 682px) {
       padding-top: 132px;
     }
     @media (max-width: 340px) {
@@ -95,7 +95,7 @@ body {
     aspect-ratio: 1/1;
     padding: 6px;
 
-    @media (max-width: 742px) {
+    @media (max-width: 682px) {
       border-radius: 10%;
       float: left;
     }
@@ -106,7 +106,7 @@ body {
     padding: 6px;
     font-style: normal;
 
-    @media (max-width: 742px) {
+    @media (max-width: 682px) {
       float: left;
     }
     @media (max-width: 340px) {
