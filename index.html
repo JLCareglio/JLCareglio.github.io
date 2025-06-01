@@ -34,6 +34,7 @@
     />
 
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles-print.css" media="print" />
   </head>
 
   <body>
@@ -41,11 +42,17 @@
       <img
         class="avatar"
         alt="avatar de Lautaro"
-        src="https://github.com/jlcareglio.png?size=177"
+        src="https://github.com/jlcareglio.png?size=128"
       />
       <address class="contact-info">
-        📧 jlcareglioalbornoz@gmail.com <br />
-        📱 +54 266-4843722 <br />
+        📧
+        <a class="link-no-style" href="mailto:jlcareglioalbornoz@gmail.com"
+          >jlcareglioalbornoz@gmail.com</a
+        >
+        <br />
+        📱
+        <a class="link-no-style" href="tel:+542664843722">+54 266-4843722</a>
+        <br />
         🌎 Argentina 🇦🇷 <br />
         <a
           class="unmarked-visit"
@@ -68,7 +75,7 @@
           >freeCodeCamp</a
         >
       </address>
-      <h1>
+      <h1 id="profile-name">
         Jesús&nbsp;Lautaro <br />
         Careglio Albornoz <br />
         [Web Full Stack]
@@ -81,7 +88,7 @@
     </header>
 
     <main>
-      <h2>Curriculum Vitae</h2>
+      <h2 id="curriculum-vitae">Curriculum Vitae</h2>
       <p>
         Actualmente trabajo como freelancer
         <abbr
@@ -93,7 +100,7 @@
         <abbr title="Interfaz de usuario">Front End</abbr>,
         <abbr title="Servidor y base de datos">Back End</abbr>.
       </p>
-      <h3>Tecnologías</h3>
+      <h3 id="technologies">Tecnologías</h3>
       <ul>
         <li>
           Lenguajes: <abbr title="JavaScript">JS</abbr>,
@@ -125,15 +132,15 @@
           <abbr title="Natural Language Web">NLWeb</abbr>
         </li>
       </ul>
-      <h3>Experiencia Laboral</h3>
-      <h4>Full Stack Developer (Autónomo, Ene 2023 - Presente)</h4>
+      <h3 id="work-experience">Experiencia Laboral</h3>
+      <h4 id="freelance-developer">Full Stack Developer (Autónomo, Ene 2023 - Presente)</h4>
       <ul>
         <li>
           Creación de Aplicaciones Web, asesoramiento, desarrollo y
           mantenimiento de software para diversos clientes.
         </li>
       </ul>
-      <h4>
+      <h4 id="teaching-assistant">
         Full Stack Teaching Assistant (Henry Bootcamp, Sep 2022 - Nov 2022)
       </h4>
       <ul>
@@ -147,7 +154,7 @@
         </li>
         <li>Propuesta de ideas para la mejora de los procesos del Bootcamp</li>
       </ul>
-      <h4>
+      <h4 id="game-developer">
         Game Developer - Unity3D Programmer (Five Pixel Studio, Jun 2016 - Oct
         2018).
       </h4>
@@ -165,7 +172,7 @@
           Creación de juegos para Android y publicación en la Google Play Store
         </li>
       </ul>
-      <h3>Proyectos</h3>
+      <h3 id="projects">Proyectos</h3>
       <ul>
         <li>
           <a
@@ -259,7 +266,7 @@
           y ratón
         </li>
       </ul>
-      <h3>Educación y Cualificaciones</h3>
+      <h3 id="education">Educación y Cualificaciones</h3>
       <ul>
         <li>
           Free Code Camp -
@@ -300,7 +307,7 @@
           Diploma de honor al mejor compañero
         </li>
       </ul>
-      <h3>Miscelánea</h3>
+      <h3 id="miscellaneous">Miscelánea</h3>
       <ul>
         <li>
           Idiomas: Español (Nativo/Avanzado), English (<abbr
