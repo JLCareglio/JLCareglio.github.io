@@ -13,7 +13,7 @@
       orphans: 3;
     }
 
-    a:not(.unmarked-visit):visited {
+    a:not(.unmarked-visit):not(.link-no-style):visited {
       color: var(--link-color);
     }
 
