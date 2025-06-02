@@ -142,6 +142,11 @@ body {
     border: 1px solid var(--link-color);
   }
 
+  .action-buttons button.active {
+    border: 2px solid var(--link-color);
+    font-weight: bold;
+  }
+
   footer {
     margin-top: 32px;
     text-align: center;
