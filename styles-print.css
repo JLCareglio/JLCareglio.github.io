@@ -1,0 +1,36 @@
+@page {
+  size: A4 portrait;
+}
+
+@media print {
+  body {
+    h1 {
+      margin-top: 0;
+    }
+
+    p {
+      widows: 3;
+      orphans: 3;
+    }
+
+    a:not(.unmarked-visit):not(.link-no-style):visited {
+      color: var(--link-color);
+    }
+
+    abbr {
+      text-decoration: none;
+    }
+
+    .action-buttons {
+      display: none;
+    }
+
+    footer {
+      padding: 0px;
+    }
+  }
+
+  #projects {
+    break-before: page;
+  }
+}
