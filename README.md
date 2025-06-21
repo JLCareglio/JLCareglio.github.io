@@ -46,6 +46,8 @@ Actualmente trabajo como freelancer Full-Stack Web Developer, tengo conocimiento
 
 ### Proyectos
 
+[freeCodeCamp Projects](https://jlcareglio.github.io/freecodecamp/) - Página donde muestro todos mis proyectos con certificación de freeCodeCamp junto con su código fuente
+
 - [RPG Creature Search App](https://jlcareglio.github.io/freecodecamp/RPG-Creature-Search-App/index.html) - Proyecto final destacado del curso JavaScript Algorithms and Data Structures de FreeCodeCamp, con énfasis en diseño UI/UX y mejoras estéticas adicionales
 - [VillaPlatzi](https://github.com/JLCareglio/VillaPlatzi) - Juego Web creado con Vanilla HTML5, CSS y JavaScript para el [Curso de Programación en Platzi](https://platzi.com/cursos/programacion-basica/)
 - [Metavoces](https://metavoces.unsl.edu.ar/) - WebApp para revistas científicas publicadas por FCS (Facultad de Ciencias de la Salud) en UNSL (Universidad Nacional de San Luis)
@@ -54,11 +56,11 @@ Actualmente trabajo como freelancer Full-Stack Web Developer, tengo conocimiento
 - [RentaLibre](https://github.com/JLCareglio/PF-RentaLibre-HENRY) - Proyecto grupal y final de Henry Bootcamp - E-commerce de productos de renta donde tome el rol de Back-End
 - Kitten UP - Juego Mobile para Android inspirado en Flappy Bird
 - [Bizarrepair](https://v3.globalgamejam.org/2020/games/bizarrepair-6) - Juego creado con Godot para la Global Game Jam 2020
-- [Mouse TitleBar Hider](https://github.com/JLCareglio/Mouse-TitleBar-Hider) - Herramienta simple desarrollada en AutoHotkey v2 para ocultar las barras de título de las ventanas en Windows mediante atajos de teclado y ratón
 
 ### Educación y Cualificaciones
 
-- Free Code Camp - [JavaScript Algorithms and Data Structures (2025)](https://www.freecodecamp.org/certification/JLCareglio/javascript-algorithms-and-data-structures-v8) - Más de 300 horas de cursado teórico-práctico
+- freeCodeCamp - [Front End Development Libraries (2025)](https://www.freecodecamp.org/certification/JLCareglio/front-end-development-libraries) - Más de 300 horas de cursado teórico-práctico
+- freeCodeCamp - [JavaScript Algorithms and Data Structures (2025)](https://www.freecodecamp.org/certification/JLCareglio/javascript-algorithms-and-data-structures-v8) - Más de 300 horas de cursado teórico-práctico
 - Henry Bootcamp - [Full-Stack Web Developer (2023)](https://certificates.soyhenry.com/cert?id=830ce862-1bcd-4ad4-8a86-131eef459a29) - Más de 700 horas de cursado teórico-práctico
 - Programa 111 Mil - [Analista del Conocimiento Trayecto Programador](<./assets/Careglio%20Albornoz,%20Jes%C3%BAs%20Lautaro%20-%20Programa%20111%20Mil%20-%20Analista%20del%20Conocimiento%20Trayecto%20Programador%20(2017).pdf>) (2018)
 - Colegio Secundario San José - Humanidades y Ciencias Sociales (2012) - Diploma de honor al mejor compañero
