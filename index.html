@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="x-default">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV - Jesús Lautaro Careglio Albornoz</title>
+    <title>Jesús Lautaro Careglio Albornoz - Select Language</title>
 
+    <meta name="robots" content="noindex, nofollow" />
     <meta
       name="description"
-      content="Curriculum Vitae de Jesús Lautaro Careglio Albornoz, Desarrollador Web Full-Stack"
+      content="Select your preferred language - Jesús Lautaro Careglio Albornoz, Full-Stack Web Developer"
     />
 
-    <link rel="canonical" href="https://jlcareglio.github.io/es/" />
+    <link rel="canonical" href="https://jlcareglio.github.io/" />
     <link
       rel="alternate"
       hreflang="es"
@@ -25,6 +26,39 @@
       rel="alternate"
       hreflang="x-default"
       href="https://jlcareglio.github.io/"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jlcareglio.github.io/" />
+    <meta
+      property="og:title"
+      content="Jesús Lautaro Careglio Albornoz - Select Language"
+    />
+    <meta
+      property="og:description"
+      content="Select your preferred language - Jesús Lautaro Careglio Albornoz, Full-Stack Web Developer"
+    />
+    <meta property="og:image" content="https://github.com/jlcareglio.png" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="460" />
+    <meta property="og:image:height" content="460" />
+    <meta
+      property="og:image:alt"
+      content="Profile picture of Jesús Lautaro Careglio Albornoz"
+    />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://jlcareglio.github.io/" />
+    <meta
+      property="twitter:title"
+      content="Jesús Lautaro Careglio Albornoz - Select Language"
+    />
+    <meta
+      property="twitter:description"
+      content="Select your preferred language - Jesús Lautaro Careglio Albornoz, Full-Stack Web Developer"
+    />
+    <meta
+      property="twitter:image"
+      content="https://github.com/jlcareglio.png"
     />
 
     <link
@@ -50,323 +84,184 @@
       href="https://github.com/jlcareglio.png?size=180"
     />
 
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./styles-print.css" media="print" />
+    <style>
+      :root {
+        --background-color: #2e2a2b;
+        --text-color: #e7dbc6;
+        --heading-color: #f4ecd8;
+        --link-color: #e4b77a;
+        --link-visited-color: #9e7548;
+        --border-color: #5c4b51;
+        --heading-background: #3a3637;
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          --background-color: #e0d8c0;
+          --text-color: #4a3f44;
+          --heading-color: #2e2a2b;
+          --link-color: #66340a;
+          --link-visited-color: #472706;
+          --border-color: #a39081;
+          --heading-background: #dbd7c7;
+        }
+      }
+
+      body {
+        font-family: CONSOLAS, Arial, sans-serif;
+        text-align: center;
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.5;
+        color: var(--text-color);
+        background-color: var(--background-color);
+      }
+
+      h1,
+      h2 {
+        color: var(--heading-color);
+      }
+
+      a {
+        color: var(--link-color);
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: var(--link-visited-color);
+      }
+
+      .language-selector {
+        margin: 30px 0;
+        padding: 20px;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background-color: var(--heading-background);
+      }
+
+      .language-option {
+        display: inline-block;
+        margin: 10px;
+        padding: 15px 30px;
+        border: 2px solid var(--border-color);
+        border-radius: 4px;
+        background-color: var(--heading-background);
+        color: var(--text-color);
+        text-decoration: none;
+        font-size: 18px;
+        transition: border-color 0.3s ease;
+        cursor: pointer;
+      }
+
+      .language-option:hover {
+        border-color: var(--link-color);
+      }
+
+      .language-flag {
+        margin-right: 8px;
+        font-size: 20px;
+      }
+
+      .hidden {
+        display: none;
+      }
+    </style>
   </head>
 
   <body>
-    <header>
-      <img
-        class="avatar"
-        alt="avatar de Lautaro"
-        src="https://github.com/jlcareglio.png?size=128"
-      />
-      <address class="contact-info">
-        📧
-        <a class="link-no-style" href="mailto:jlcareglioalbornoz@gmail.com"
-          >jlcareglioalbornoz@gmail.com</a
-        >
-        <br />
-        🌎 Argentina 🇦🇷 <br />
-        <hr />
+    <div class="hidden">
+      <h1>Jesús Lautaro Careglio Albornoz - Full-Stack Web Developer</h1>
+      <p>
+        Welcome to my personal website and CV. Please select your preferred
+        language to continue.
+      </p>
+    </div>
+
+    <div id="detecting" class="language-selector">
+      <h2>Detecting your language...</h2>
+      <p>Please wait while we detect your preferred language.</p>
+    </div>
+
+    <div id="selector" class="language-selector hidden">
+      <h2>Select your language</h2>
+      <p>Please choose your preferred language:</p>
+      <div>
         <a
-          class="unmarked-visit"
-          href="https://github.com/jlcareglio"
-          target="_blank"
-          >GitHub</a
+          href="/en/"
+          class="language-option"
+          data-lang="en"
+          aria-label="English"
         >
-        |
+          <span class="language-flag">🇺🇸</span> English
+        </a>
         <a
-          class="unmarked-visit"
-          href="https://linkedin.com/in/jlcareglio"
-          target="_blank"
-          >LinkedIn</a
+          href="/es/"
+          class="language-option"
+          data-lang="es"
+          aria-label="Español"
         >
-        |
-        <a
-          class="unmarked-visit"
-          href="https://x.com/jlcareglio"
-          target="_blank"
-          >X/Twitter</a
-        >
-        <br />
-        <a
-          class="unmarked-visit"
-          href="https://www.freecodecamp.org/JLCareglio"
-          target="_blank"
-          >freeCodeCamp</a
-        >
-      </address>
-      <h1 id="profile-name">
-        Jesús&nbsp;Lautaro <br />
-        Careglio Albornoz <br />
-        [Web Full-Stack]
-      </h1>
-      <div
-        class="action-buttons"
-        role="group"
-        aria-label="Controles de preferencias"
-      >
-        <button id="spanishBtn" class="language-btn active">🇦🇷 Español</button>
-        <button id="englishBtn" class="language-btn">🇺🇸 English</button>
-        <button id="lightThemeBtn">☀️ Tema&nbsp;Claro</button>
-        <button id="darkThemeBtn">🌙 Tema&nbsp;Oscuro</button>
-        <button id="printBtn">🖨️ Imprimir</button>
+          <span class="language-flag">🇦🇷</span> Español
+        </a>
       </div>
-    </header>
+    </div>
 
-    <main>
-      <h2 id="cv">Curriculum Vitae</h2>
+    <div id="redirecting-en" class="language-selector hidden">
+      <h2>Redirecting...</h2>
       <p>
-        Actualmente trabajo como freelancer
-        <abbr
-          title="Desarrollador de aplicaciones web, tanto frontend como backend"
-          >Full-Stack Web Developer</abbr
-        >, tengo conocimientos en metodologías ágiles,
-        <abbr title="Sistema de Control de Versiones">Git</abbr>, estructura de
-        datos, algoritmos, frameworks, gestión de proyectos, desarrollo de
-        <abbr title="Interfaz de usuario">Front-End</abbr>,
-        <abbr title="Servidor y base de datos">Back-End</abbr>.
+        Taking you to the selected version of the site. If you are not
+        redirected automatically, please
+        <a href="#" id="manual-redirect-en">click here</a>.
       </p>
-      <h3 id="technologies">Tecnologías</h3>
-      <ul>
-        <li>
-          Lenguajes: <abbr title="JavaScript">JS</abbr>,
-          <abbr title="TypeScript">TS</abbr>,
-          <abbr title="Cascading Style Sheets">CSS</abbr>,
-          <abbr title="HyperText Markup Language">HTML</abbr>,
-          <abbr title="Structured Query Language">SQL</abbr>, Python, C#,
-          <abbr title="PHP: Hypertext Preprocessor">PHP</abbr>, Java, Kotlin,
-          Shell Script
-        </li>
-        <li>
-          Frameworks: Node.js, React.js, Redux, Astro, Svelte, Express, Next.js,
-          <abbr title="Graph Query Language">GraphQL</abbr>,
-          <abbr title="Sassy Cascading Style Sheets">SCSS</abbr>, Tailwind,
-          Bootstrap
-        </li>
-        <li>
-          Bases de datos: PostgreSQL, MySQL, MongoDB -
-          <abbr title="Object-Relational Mappers">ORMs</abbr> &amp;
-          <abbr title="Object Document Mappers">ODMs</abbr>: Mongoose, Prisma
-        </li>
-        <li>
-          Otras habilidades: Terminal Linux, Mobile Development, Firebase,
-          Vercel, Testing, Scrum,
-          <abbr title="Representational State Transfer">REST</abbr>, Figma,
-          Three.js, Data Scraping, Unity3D, Unreal, Godot, AndroidStudio,
-          <abbr title="Inteligencia Artificial">AI</abbr>,
-          <abbr title="Model Context Protocol">MPC</abbr>,
-          <abbr title="Natural Language Web">NLWeb</abbr>
-        </li>
-      </ul>
-      <h3 id="work-experience">Experiencia Laboral</h3>
-      <h4 id="freelance-developer">
-        Full-Stack Web Developer (Autónomo, Ene 2023 - Presente)
-      </h4>
-      <ul>
-        <li>
-          Creación de Aplicaciones Web, asesoramiento, desarrollo y
-          mantenimiento de software para diversos clientes.
-        </li>
-      </ul>
-      <h4 id="teaching-assistant">
-        Full-Stack Teaching Assistant (Henry Bootcamp, Sep 2022 - Nov 2022)
-      </h4>
-      <ul>
-        <li>
-          Coordinación de grupos de estudiantes para lograr la integración al
-          equipo de estudio
-        </li>
-        <li>
-          Asistencia en la resolución de ejercicios y promoción de la
-          colaboración grupal (Pair Programming)
-        </li>
-        <li>Propuesta de ideas para la mejora de los procesos del Bootcamp</li>
-      </ul>
-      <h4 id="game-developer">
-        Game Developer and Unity3D Programmer (Five Pixel Studio, Jun 2016 - Oct
-        2018).
-      </h4>
-      <ul>
-        <li>
-          Desarrollo de videojuegos a pedido, resolviendo el proceso completo de
-          ideación, producción y desarrollo
-        </li>
-        <li>
-          Trabajo en el desarrollo de la aplicación
-          <abbr title="Realidad Aumentada">AR</abbr> de Juana y Pascual para el
-          ministerio de educación
-        </li>
-        <li>
-          Creación de juegos para Android y publicación en la Google Play Store
-        </li>
-      </ul>
-      <h3 id="projects">Proyectos</h3>
-      <ul>
-        <li>
-          <a href="https://jlcareglio.github.io/freecodecamp/" target="_blank"
-            >freeCodeCamp Projects</a
-          >
-          - Página donde muestro todos mis proyectos con certificación de
-          freeCodeCamp junto con su código fuente
-        </li>
-        <li>
-          <a
-            href="https://jlcareglio.github.io/freecodecamp/RPG-Creature-Search-App/index.html"
-            target="_blank"
-            ><abbr title="Role-Playing Game">RPG</abbr> Creature Search App</a
-          >
-          - Proyecto final destacado del curso JavaScript Algorithms and Data
-          Structures de FreeCodeCamp, con énfasis en diseño
-          <abbr title="User Interface/User Experience">UI/UX</abbr> y mejoras
-          estéticas adicionales
-        </li>
-        <li>
-          <a href="https://github.com/JLCareglio/VillaPlatzi" target="_blank"
-            >VillaPlatzi</a
-          >
-          - Juego Web creado con Vanilla
-          <abbr title="HyperText Markup Language versión 5">HTML5</abbr>,
-          <abbr title="Cascading Style Sheets">CSS</abbr> y JavaScript para el
-          <a
-            href="https://platzi.com/cursos/programacion-basica/"
-            target="_blank"
-            >Curso de Programación en Platzi</a
-          >
-        </li>
-        <li>
-          <a href="https://metavoces.unsl.edu.ar/" target="_blank">Metavoces</a>
-          - WebApp para revistas científicas publicadas por
-          <abbr title="Facultad de Ciencias de la Salud">FCS</abbr> (Facultad de
-          Ciencias de la Salud) en
-          <abbr title="Universidad Nacional de San Luis">UNSL</abbr>
-          (Universidad Nacional de San Luis)
-        </li>
-        <li>
-          <a
-            href="https://github.com/JLCareglio/StaticWebWithCMS"
-            target="_blank"
-            >Static Web With Spreadsheets
-            <abbr title="Content Management System">CMS</abbr></a
-          >
-          - Pequeño experimento en el que hice un
-          <abbr title="Content Management System">CMS</abbr> para páginas
-          estáticas usando Google Spreadsheets como base de datos
-        </li>
-        <li>
-          <a
-            href="https://microsoftedge.microsoft.com/addons/detail/steam-cart-helper/afgkhaceenngofnbpbhdbehopaihdoji"
-            target="_blank"
-            ><abbr title="Steam Cart Helper">SCH</abbr> - Steam Cart Helper</a
-          >
-          - Extensión para navegadores que ayuda a ahorrar tiempo agregando
-          funcionalidades al carrito de compras de Steam,
-          <a
-            href="https://microsoftedge.microsoft.com/addons/detail/steam-cart-helper/afgkhaceenngofnbpbhdbehopaihdoji"
-            target="_blank"
-            >instala la extension</a
-          >
-          o mira el
-          <a
-            href="https://github.com/JLCareglio/Steam-Cart-Helper-Browser-Extension"
-            target="_blank"
-            >Código Fuente</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://github.com/JLCareglio/PF-RentaLibre-HENRY"
-            target="_blank"
-            >RentaLibre</a
-          >
-          - Proyecto grupal y final de Henry Bootcamp - E-commerce de productos
-          de renta donde tome el rol de Back-End
-        </li>
-        <li>Kitten UP - Juego Mobile para Android inspirado en Flappy Bird</li>
-        <li>
-          <a
-            href="https://v3.globalgamejam.org/2020/games/bizarrepair-6"
-            target="_blank"
-            >Bizarrepair</a
-          >
-          - Juego creado con Godot para la Global Game Jam 2020
-        </li>
-      </ul>
-      <h3 id="education">Educación y Cualificaciones</h3>
-      <ul>
-        <li>
-          freeCodeCamp -
-          <a
-            class="unmarked-visit"
-            href="https://www.freecodecamp.org/certification/JLCareglio/front-end-development-libraries"
-            target="_blank"
-            >Front End Development Libraries (<time datetime="2025-06-20"
-              >2025</time
-            >)</a
-          >
-          - Más de 300 horas de cursado teórico-práctico
-        </li>
-        <li>
-          freeCodeCamp -
-          <a
-            class="unmarked-visit"
-            href="https://www.freecodecamp.org/certification/JLCareglio/javascript-algorithms-and-data-structures-v8"
-            target="_blank"
-            >JavaScript Algorithms and Data Structures (<time
-              datetime="2025-05-17"
-              >2025</time
-            >)</a
-          >
-          - Más de 300 horas de cursado teórico-práctico
-        </li>
-        <li>
-          HENRY -
-          <a
-            class="unmarked-visit"
-            href="https://certificates.soyhenry.com/cert?id=830ce862-1bcd-4ad4-8a86-131eef459a29"
-            target="_blank"
-            >Full-Stack Web Developer (<time datetime="2023-01-27">2023</time
-            >)</a
-          >
-          - Más de 700 horas de cursado teórico-práctico
-        </li>
-        <li>
-          Programa 111 Mil -
-          <a
-            class="unmarked-visit"
-            href="./assets/Careglio Albornoz, Jesús Lautaro - Programa 111 Mil - Analista del Conocimiento Trayecto Programador (2017).pdf"
-            target="_blank"
-            >Analista del Conocimiento Trayecto Programador</a
-          >
-          (<time datetime="2018-06-14">2018</time>)
-        </li>
-        <li>
-          Colegio Secundario San José - Humanidades y Ciencias Sociales (2012) -
-          Diploma de honor al mejor compañero
-        </li>
-      </ul>
-      <h3 id="miscellaneous">Miscelánea</h3>
-      <ul>
-        <li>
-          Idiomas: Español (Nativo/Avanzado), English (<abbr
-            title="Intermediate"
-            >B1</abbr
-          >: listening &amp; reading -
-          <abbr title="Upper Intermediate">B2</abbr>: learning)
-        </li>
-      </ul>
-    </main>
-
-    <footer>
+    </div>
+    <div id="redirecting-es" class="language-selector hidden">
+      <h2>Redirigiendo...</h2>
       <p>
-        Última versión de Curriculum Vitae disponible en:
-        <a class="unmarked-visit" href="https://jlcareglio.github.io/"
-          >https://jlcareglio.github.io</a
-        >
+        Llevándote a la versión seleccionada del sitio. Si no eres redirigido
+        automáticamente, por favor
+        <a href="#" id="manual-redirect-es">haz clic aquí</a>.
       </p>
-    </footer>
+    </div>
 
-    <script src="./script.js"></script>
+    <script>
+      function detectLanguage() {
+        const userLang = navigator.language || navigator.userLanguage;
+        const supportedLangs = ["en", "es"];
+        const langCode = userLang.split("-")[0];
+        if (supportedLangs.includes(langCode)) {
+          redirectToLanguage(langCode);
+          return;
+        }
+        showLanguageSelector();
+      }
+
+      function showLanguageSelector() {
+        document.getElementById("detecting").classList.add("hidden");
+        document.getElementById("selector").classList.remove("hidden");
+      }
+
+      function redirectToLanguage(lang) {
+        const redirectingElement = document.getElementById(
+          `redirecting-${lang}`
+        );
+        redirectingElement.classList.remove("hidden");
+        document.getElementById("detecting").classList.add("hidden");
+        const manualLink = document.getElementById(`manual-redirect-${lang}`);
+        manualLink.href = `/${lang}/`;
+        window.location.replace(`/${lang}/`);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const langButtons = document.querySelectorAll(".language-option");
+        langButtons.forEach((button) => {
+          button.addEventListener("click", function (e) {
+            e.preventDefault();
+            const lang = this.getAttribute("data-lang");
+            redirectToLanguage(lang);
+          });
+        });
+        detectLanguage();
+      });
+    </script>
   </body>
 </html>
