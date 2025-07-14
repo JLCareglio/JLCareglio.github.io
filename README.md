@@ -24,7 +24,7 @@ Actualmente trabajo como freelancer Full-Stack Web Developer, tengo conocimiento
 - Lenguajes: JavaScript, TypeScript, CSS, HTML, SQL, Python, C#, PHP, Java, Kotlin, Shell Script
 - Frameworks: Node.js, React.js, Redux, Astro, Svelte, Express, Next.js, GraphQL, SCSS, Tailwind, Bootstrap
 - Bases de datos: PostgreSQL, MySQL, MongoDB - ORMs y ODMs: Mongoose, Prisma
-- Otras habilidades: Terminal Linux, Mobile Development, Firebase, Vercel, Testing, Scrum, REST, Figma, Three.js, Data Scraping, Unity3D, Unreal, Godot, AndroidStudio, AI, MPC, NLWeb
+- Otras habilidades: Terminal Linux, Mobile Development, Firebase, Vercel, Testing, Scrum, REST, Figma, Three.js, Data Scraping, Unity3D, Unreal, Godot, AndroidStudio, AI, MCP, NLWeb
 
 ### Experiencia Laboral
 
@@ -32,11 +32,11 @@ Actualmente trabajo como freelancer Full-Stack Web Developer, tengo conocimiento
 
 - Creación de Aplicaciones Web, asesoramiento, desarrollo y mantenimiento de software para diversos clientes.
 
-#### Full-Stack Teaching Assistant (Henry Bootcamp, Sep 2022 - Nov 2022)
+#### Full-Stack Teaching Assistant (Henry BootCamp, Sep 2022 - Nov 2022)
 
 - Coordinación de grupos de estudiantes para lograr la integración al equipo de estudio
 - Asistencia en la resolución de ejercicios y promoción de la colaboración grupal (Pair Programming)
-- Propuesta de ideas para la mejora de los procesos del Bootcamp
+- Propuesta de ideas para la mejora de los procesos del BootCamp
 
 #### Game Developer and Unity3D Programmer (Five Pixel Studio, Jun 2016 - Oct 2018).
 
@@ -53,7 +53,7 @@ Actualmente trabajo como freelancer Full-Stack Web Developer, tengo conocimiento
 - [Metavoces](https://metavoces.unsl.edu.ar/) - WebApp para revistas científicas publicadas por FCS (Facultad de Ciencias de la Salud) en UNSL (Universidad Nacional de San Luis)
 - [Static Web With Spreadsheets CMS](https://github.com/JLCareglio/StaticWebWithCMS) - Pequeño experimento en el que hice un CMS para páginas estáticas usando Google Spreadsheets como base de datos
 - [SCH - Steam Cart Helper](https://microsoftedge.microsoft.com/addons/detail/steam-cart-helper/afgkhaceenngofnbpbhdbehopaihdoji) - Extensión para navegadores que ayuda a ahorrar tiempo agregando funcionalidades al carrito de compras de Steam, [instala la extension](https://microsoftedge.microsoft.com/addons/detail/steam-cart-helper/afgkhaceenngofnbpbhdbehopaihdoji) o mira el [Código Fuente](https://github.com/JLCareglio/Steam-Cart-Helper-Browser-Extension)
-- [RentaLibre](https://github.com/JLCareglio/PF-RentaLibre-HENRY) - Proyecto grupal y final de Henry Bootcamp - E-commerce de productos de renta donde tome el rol de Back-End
+- [RentaLibre](https://github.com/JLCareglio/PF-RentaLibre-HENRY) - Proyecto grupal y final de Henry BootCamp - E-commerce de productos de renta donde tome el rol de Back-End
 - Kitten UP - Juego Mobile para Android inspirado en Flappy Bird
 - [Bizarrepair](https://v3.globalgamejam.org/2020/games/bizarrepair-6) - Juego creado con Godot para la Global Game Jam 2020
 
@@ -61,10 +61,6 @@ Actualmente trabajo como freelancer Full-Stack Web Developer, tengo conocimiento
 
 - freeCodeCamp - [Front End Development Libraries (2025)](https://www.freecodecamp.org/certification/JLCareglio/front-end-development-libraries) - Más de 300 horas de cursado teórico-práctico
 - freeCodeCamp - [JavaScript Algorithms and Data Structures (2025)](https://www.freecodecamp.org/certification/JLCareglio/javascript-algorithms-and-data-structures-v8) - Más de 300 horas de cursado teórico-práctico
-- Henry Bootcamp - [Full-Stack Web Developer (2023)](https://certificates.soyhenry.com/cert?id=830ce862-1bcd-4ad4-8a86-131eef459a29) - Más de 700 horas de cursado teórico-práctico
+- Henry BootCamp - [Full-Stack Web Developer (2023)](https://certificates.soyhenry.com/cert?id=830ce862-1bcd-4ad4-8a86-131eef459a29) - Más de 700 horas de cursado teórico-práctico
 - Programa 111 Mil - [Analista del Conocimiento Trayecto Programador](<./assets/Careglio%20Albornoz,%20Jes%C3%BAs%20Lautaro%20-%20Programa%20111%20Mil%20-%20Analista%20del%20Conocimiento%20Trayecto%20Programador%20(2017).pdf>) (2018)
 - Colegio Secundario San José - Humanidades y Ciencias Sociales (2012) - Diploma de honor al mejor compañero
-
-### Miscelánea
-
-- Idiomas: Español (Nativo/Avanzado), English (B1: listening & reading - B2: learning)
